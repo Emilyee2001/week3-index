@@ -69,31 +69,31 @@
 
 // banner-design
 .bg-design{
-    background-image: url(/w3-homework/week3-index/image-week3-4/index-bg.png);
+    background-image: url(../image-week3-4/index-bg.png);
 }
 .design-title{
     color: #ffffff;
 }
 .design-card-l{
-    background-image: url(/w3-homework/week3-index/image-week3-4/home-section4-1.png);
+    background-image: url(../image-week3-4/home-section4-1.png);
     height: 240px;
 }
 .design-card-r{
-    background-image: url(/w3-homework/week3-index/image-week3-4/home-section4-2.png);
+    background-image: url(../image-week3-4/home-section4-2.png);
     height: 240px;
 }
 @media(max-width: 992px){
     .bg-design{
-        background-image: url(/w3-homework/week3-index/image-week3-4/index-bg-sm.png);
+        background-image: url(../image-week3-4/index-bg-sm.png);
         background-position: top;
     }
 }
 @media(max-width: 576px){
     .design-card-l{
-        background-image: url(/w3-homework/week3-index/image-week3-4/home-section4-1-sm.png);
+        background-image: url(../image-week3-4/home-section4-1-sm.png);
     }
     .design-card-r{
-        background-image: url(/w3-homework/week3-index/image-week3-4/home-section4-2-sm.png);
+        background-image: url(../image-week3-4/home-section4-2-sm.png);
     }
 }
 // banner-customer-review
