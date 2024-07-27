@@ -1,0 +1,162 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    color: $c-text;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: $c-text;
+    display: block;
+}
+
+// container
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.card-row{
+    margin: 0 -12px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 12px;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 12px;
+}
+.w-50{
+    width: 50%;
+}
+@media(max-width: 992px){
+    .col-md-6{
+        width: 50%;
+    }
+    .w-100{
+        width: 100%;
+    }
+}
+@media(max-width: 576px){
+    .col-sm-12{
+        width: 100%;
+    }
+}
+
+// position
+.banner-wrap{
+    padding: 80px 0;
+}
+@media(max-width: 576px){
+    .banner-wrap{
+        padding: 40px 0;
+    }
+}
+@media(max-width: 992px){
+    .card-gp-6{
+        gap: 24px 0;
+    }
+}
+.margin-0-auto{
+    margin: 0 auto;
+}
+.title-l-mb{
+    margin-bottom: 48px;
+}
+@media(max-width: 576px){
+    .title-l-mb{
+        margin-bottom: 24px;
+    }
+}
+
+//display:flex
+.d-flx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jc-space-btwn{
+    justify-content: space-between;
+}
+.ai-center{
+    align-items: center;
+}
+
+// color
+.bg-dark{
+    background-color: $c-primary;
+}
+.bg-light{
+    background-color: $bgc-light;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.c-white{
+    color: #ffffff;
+}
+
+// font
+.a-white{
+    color: #ffffff;
+    transition: 0.5s;
+    &:hover{
+        cursor: pointer;
+        background-color: $c-secondary;
+    }
+}
+.title-l{
+    font-size: $fs-2;
+    font-weight: $fw-l;
+    color: $c-secondary;
+    text-align: center;
+}
+.time{
+    font-size: 14px;
+    color: #707070;
+}
+@media(max-width: 576px){
+    .title-l{
+        font-size: $fs-4;
+    }
+}
+.title-s{
+    font-size: $fs-4;
+    font-weight: $fw-l;
+    color: $c-secondary;
+}
+.title-red{
+    font-size: $fs-2;
+    font-weight: $fw-l;
+    color: $c-primary;
+    font-style: italic;
+    text-align: center;
+    &:hover{
+        background-color: $c-secondary;
+        color: #ffffff;
+    }
+}
+
+// background
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// button
+.btn{
+    color: #ffffff;
+    background-color: $c-primary;
+    transition: 0.5s;
+    &:hover{
+        background-color: $c-secondary;
+    }
+}

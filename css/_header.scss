@@ -1,0 +1,29 @@
+.header-logo{
+    width: 80px;
+    height: auto;
+    padding: 12px 0;
+}
+.nav-list{
+    padding: 12px 32px;
+    font-size: $fs-5;
+}
+
+@media(max-width: 767px){
+    .header-rwd{
+        padding: 0;
+    }
+    .header-logo{
+        margin-left: 12px;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    .nav-list-rwd{
+        width: 50%;
+        text-align: center;
+        border: 1px solid #ffffff;
+    }
+    .nav-list{
+        font-size: $fs-6;
+    }
+}
